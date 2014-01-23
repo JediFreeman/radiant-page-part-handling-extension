@@ -1,3 +1,6 @@
+require 'rack/cache'
+require 'rack/cache/key'
+
 class PagePartHandlingExtension < Radiant::Extension
   version "1.0"
   description "Allow to load just a part of a page without layout."
